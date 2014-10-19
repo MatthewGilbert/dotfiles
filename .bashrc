@@ -1,6 +1,7 @@
 export PATH=/home/matthew/anaconda/bin:$PATH
 export PATH=/home/matthew/mongo/bin:$PATH
 export PATH=/home/matthew/Applications/sbt/bin:$PATH
+export EDITOR=vim
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
