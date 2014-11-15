@@ -5,7 +5,7 @@ dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # old dotfiles backup directory
 olddir=~/dotfiles_old
 # list of files/folders to symlink in homedir
-files=".bashrc .vimrc .Rprofile .tmux.conf"  
+files=".bashrc .vimrc .Rprofile .tmux.conf .gitconfig"  
 ##########
  
 # create dotfiles_old in homedir

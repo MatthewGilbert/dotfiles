@@ -1,0 +1,9 @@
+[user]
+	name = Matthew Gilbert
+	email = matthew.gilbert12@gmail.com
+
+[url "https://bitbucket.org/"]
+        insteadOf = bb:
+
+[url "https://github.com/"]
+        insteadOf = gh:
