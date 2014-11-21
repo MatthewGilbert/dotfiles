@@ -5,12 +5,26 @@ set expandtab         " Spaces are better than a tab character
 set smarttab
 set shiftwidth=4      " change number of spaces for tab
 set softtabstop=4
-set nowrap            " don't wrap text
+set textwidth=79
+" set nowrap            " don't wrap text
 set number            " set line numbers
 " set clipboard=unnamed
 syntax enable         " set syntax highlighting
 filetype plugin on
 filetype indent on
+
+"personal key mappings
+map <F1> :ls<cr>
+map <F2> :ls<cr>
+nmap - <C-W>-
+nmap + <C-W>+
+nmap + <C-W>+
+nmap <Tab> :bn<cr>
+nmap <S-Tab> :bp<cr>
+
+"for vim pathongen
+execute pathogen#infect()
+autocmd BufWritePost *.py call Flake8() " syntax checking on save file
 
 " Lines added by the Vim-R-plugin command :RpluginConfig (2014-Oct-17 20:00):
 " Change the <LocalLeader> key:

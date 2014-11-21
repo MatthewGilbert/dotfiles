@@ -5,7 +5,9 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias q='rlwrap /home/matthew/q/l32/q'
-
+svim() {
+    vim -o "$@"
+}
 # Lines added by the Vim-R-plugin command :RpluginConfig (2014-Oct-17 20:02):
 # Change the TERM environment variable (to get 256 colors) and make Vim
 # connecting to X Server even if running in a terminal emulator (to get
