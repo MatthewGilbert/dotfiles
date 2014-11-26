@@ -6,6 +6,7 @@ set smarttab
 set shiftwidth=4      " change number of spaces for tab
 set softtabstop=4
 set textwidth=79
+set incsearch         " Highlight search as typed
 " set nowrap            " don't wrap text
 set number            " set line numbers
 " set clipboard=unnamed
