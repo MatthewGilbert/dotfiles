@@ -25,7 +25,8 @@ nmap <S-Tab> :bp<cr>
 
 "for vim pathongen
 execute pathogen#infect()
-autocmd BufWritePost *.py call Flake8() " syntax checking on save file
+" the command below is commented out since this gets annoying fast
+" autocmd BufWritePost *.py call Flake8() " syntax checking on save file
 
 " Lines added by the Vim-R-plugin command :RpluginConfig (2014-Oct-17 20:00):
 " Change the <LocalLeader> key:
