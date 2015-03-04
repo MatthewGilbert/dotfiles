@@ -6,6 +6,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias q='rlwrap /home/matthew/q/l32/q'
+alias ds='du -hs * | sort -h'
 svim() {
     vim -o "$@"
 }
